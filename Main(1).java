@@ -43,6 +43,7 @@ public class Main
                 }
             }
        }
+       System.out.println("Symptom tree");
        Scanner sc = new Scanner(System.in);
        String string = sc.nextLine();
        if(dxnry.containsKey(string))
